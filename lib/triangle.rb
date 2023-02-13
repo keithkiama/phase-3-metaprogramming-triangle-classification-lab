@@ -29,7 +29,7 @@ class Triangle
 
   class TriangleError < StandardError
     def error
-      "There are not valid sizes"
+      "Does not match the valid triangle criteria"
     end
   end
 
